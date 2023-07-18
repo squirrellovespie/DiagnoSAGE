@@ -10,16 +10,7 @@ The Healthcare Assistant Chatbot is an intelligent chatbot designed to provide p
 - **Natural Language Interaction:** Engage in natural language conversations with the chatbot.
 - **Easy-to-Use Interface:** Simple and intuitive user interface for interacting with the chatbot.
 
-### Data
-
-SmartEval will utilize a MySQL database to store the necessary data. The database will store the following information:
-
-- Converted text from scanned documents
-- Correct answers
-- Student answers
-- Calculated marks
-
-## Project Setup and Usage
+## Project Setup
 
 To use the Healthcare Assistant Chatbot locally, follow these steps:
 
