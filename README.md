@@ -1,8 +1,8 @@
-# HealthSAGE
+# DiagnoSAGE
 
-Welcome to the Healthcare Assistant Chatbot project!
+Welcome to the Healthcare Assistant Chatbot DiagnoSAGE!
 
-The Healthcare Assistant Chatbot is an intelligent chatbot designed to provide probable diagnoses based on user interactions and symptoms. It utilizes the power of natural language processing and the GPT-3.5 language model to generate accurate and helpful responses.
+DiagnoSAGE is an intelligent chatbot designed to provide probable diagnoses based on user interactions and symptoms. It utilizes the power of natural language processing and the GPT-3.5 language model to generate accurate and helpful responses.
 
 ## Features
 
@@ -16,7 +16,7 @@ To use the Healthcare Assistant Chatbot locally, follow these steps:
 
 1. Clone the repository: 
 ```
-git clone https://github.com/squirrellovespie/HealthSAGE.git
+git clone https://github.com/squirrellovespie/DiagnoSAGE.git
 ```
 
 2. Install the required dependencies. Make sure you have Python and pip installed, then run the following command: 
