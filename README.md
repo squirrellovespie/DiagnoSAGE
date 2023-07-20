@@ -1,14 +1,14 @@
 # DiagnoSAGE
 
-Welcome to the Healthcare Assistant Chatbot DiagnoSAGE!
+Welcome to the Healthcare Assistant DiagnoSAGE!
 
-DiagnoSAGE is an intelligent chatbot designed to provide probable diagnoses based on user interactions and symptoms. It utilizes the power of natural language processing and the GPT-3.5 language model to generate accurate and helpful responses.
+DiagnoSAGE is an intelligent chatbot designed to provide probable diagnoses based on user description of symptoms. It utilizes the power of natural language processing and the GPT-3.5 language model to generate accurate and helpful responses.
 
 ## Features
 
-- **Probable Diagnosis:** Get a probable diagnosis based on the symptoms provided by the user.
-- **Natural Language Interaction:** Engage in natural language conversations with the chatbot.
-- **Easy-to-Use Interface:** Simple and intuitive user interface for interacting with the chatbot.
+- **Probable Diagnosis:** Get possible diagnoses, precautions to be takes based on the symptoms provided by the user.
+- **Natural Language Interaction:** Describe the symptoms in natural language.
+- **Easy-to-Use Interface:** Simple and intuitive user interface for interacting with the system.
 
 ## Project Setup
 
