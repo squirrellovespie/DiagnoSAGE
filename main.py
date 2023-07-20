@@ -6,32 +6,12 @@ openai.api_key = "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"
 
 # Define your Streamlit app layout
 def app_layout():
-    # Change the background color
-    st.markdown(
-        """
-        <style>
-        body {
-            background-color: #f7f7f7;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
-
-    # Format and style the title and subtitle
-    st.markdown(
-        """
-        <h1 style='text-align: center; color: #ff69b4; font-size: 40px;'>DiagnoSAGE</h1>
-        <h2 style='text-align: center; color: #ff69b4; font-size: 28px;'>Healthcare Assistant</h2>
-        """,
-        unsafe_allow_html=True,
-    )
-
+    st.title("DiagnoSAGE")
+    st.title("Healthcare Assistant")
     user_input = st.text_input("Enter your symptoms or describe the problem")
-
     if st.button("Get Diagnosis"):
         response = get_diagnosis_response(user_input)
-        st.markdown(f"<p style='font-size: 18px; color: #2f4f4f;'>{response}</p>", unsafe_allow_html=True)
+        st.write(f"{response}")
 
         # Ask for user feedback
         feedback = st.text_area("Provide feedback on the response:", "")
