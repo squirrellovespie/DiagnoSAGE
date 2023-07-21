@@ -43,11 +43,6 @@ streamlit run main.py
 
 Please note that the diagnosis provided by the chatbot is for informational purposes only and should not substitute professional medical advice. Always consult a healthcare professional for accurate diagnosis and treatment.
 
-## Running the chatbot
-
-1. run python chatbot_train.py
-2. run python chatbot_gui.py
-
 ## Contributing
 
 Contributions to the DiagnoSAGE project are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
